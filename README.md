@@ -1,4 +1,4 @@
-Projet API Media - README
+Projet API Bar - README
 
 Auteur de l'API : RAMANANTSOA Mika
 
