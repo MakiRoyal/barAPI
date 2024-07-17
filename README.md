@@ -3,6 +3,8 @@ Projet API Media - README
 Auteur de l'API : RAMANANTSOA Mika
 
 Introduction
+
+
 Ce projet implémente une API RESTful construite avec Symfony et API Platform. 
 Elle permet la gestion des boissons, des commandes et des utilisateurs, ainsi que le téléchargement, la lecture et la suppression de fichiers média. 
 L'accès à certaines opérations est restreint par rôles utilisateurs (serveur, barman, patron).
