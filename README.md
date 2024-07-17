@@ -30,49 +30,65 @@ Création d'une boisson
 Pour créer une boisson, utilisez la route POST /api/boissons (réservée aux utilisateurs avec le rôle ROLE_BARMAN).
 
 Lecture des boissons
+
 Pour récupérer la liste des boissons, utilisez la route GET /api/boissons.
 
 Lecture des détails d'une boisson
+
 Pour récupérer les détails d'une boisson, utilisez la route GET /api/boissons/{id} (réservée aux utilisateurs avec le rôle ROLE_BARMAN).
 
 Modification d'une boisson
+
 Pour modifier une boisson, utilisez la route PATCH /api/boissons/{id} (réservée aux utilisateurs avec le rôle ROLE_BARMAN).
 
 Suppression d'une boisson
+
 Pour supprimer une boisson, utilisez la route DELETE /api/boissons/{id} (réservée aux utilisateurs avec le rôle ROLE_BARMAN).
+
 
 Gestion des commandes
 
 Création d'une commande
+
 Pour créer une commande, utilisez la route POST /api/commandes (réservée aux utilisateurs avec le rôle ROLE_SERVEUR ou ROLE_BARMAN).
 
 Lecture des commandes
+
 Pour récupérer la liste des commandes, utilisez la route GET /api/commandes (réservée aux utilisateurs avec le rôle ROLE_SERVEUR ou ROLE_BARMAN).
 
 Lecture des détails d'une commande
+
 Pour récupérer les détails d'une commande, utilisez la route GET /api/commandes/{id} (réservée aux utilisateurs avec le rôle ROLE_BARMAN et ROLE_SERVEUR).
 
 Modification d'une commande
+
 Pour modifier une commande, utilisez la route PATCH /api/commandes/{id} (réservée aux utilisateurs avec le rôle ROLE_SERVEUR ou ROLE_BARMAN).
 
 Suppression d'une commande
+
 Pour supprimer une commande, utilisez la route DELETE /api/commandes/{id}.
+
 
 Gestion des utilisateurs
 
 Création d'un utilisateur
+
 Pour créer un utilisateur, utilisez la route POST /api/users (réservée aux utilisateurs avec le rôle ROLE_PATRON).
 
 Lecture des utilisateurs
+
 Pour récupérer la liste des utilisateurs, utilisez la route GET /api/users (réservée aux utilisateurs avec le rôle ROLE_PATRON).
 
 Lecture des détails d'un utilisateur
+
 Pour récupérer les détails d'un utilisateur, utilisez la route GET /api/users/{id} (réservée aux utilisateurs avec le rôle ROLE_PATRON).
 
 Modification d'un utilisateur
+
 Pour modifier un utilisateur, utilisez la route PATCH /api/users/{id} (réservée aux utilisateurs avec le rôle ROLE_PATRON).
 
 Suppression d'un utilisateur
+
 Pour supprimer un utilisateur, utilisez la route DELETE /api/users/{id} (réservée aux utilisateurs avec le rôle ROLE_PATRON).
 
 
